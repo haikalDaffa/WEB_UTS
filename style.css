@@ -1,0 +1,68 @@
+/* Reset beberapa default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styling untuk body */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #769cc2;
+    color: #333;
+  }
+  
+  /* Styling untuk header */
+  h1, h2 {
+    color: #e50d0dfb;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling untuk tombol */
+  .btn-primary {
+    background-color: #e50d0dfb;
+    border: 1px solid #0056b3;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  /* Styling untuk footer */
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
+  /* Margin untuk kontainer utama */
+  .container {
+    margin-top: 50px;
+  }
+  
+  /* Styling untuk form */
+  .form-label {
+    font-weight: bold;
+  }
+  
+  /* Styling untuk list-group */
+  .list-group-item {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-group-item:hover {
+    background-color: #e9ecef;
+  }
+  
